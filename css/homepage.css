@@ -1,0 +1,443 @@
+@font-face {
+  src: url("../font/HKGrotesk-Bold.otf");
+  src: url("../font/HKGrotesk-ExtraBold.otf");
+  src: url("../font/HKGrotesk-Light.otf");
+  src: url("../font/HKGrotesk-Medium.otf");
+  src: url("../font/HKGrotesk-Regular.otf");
+  src: url("../font/HKGrotesk-SemiBold.otf");
+}
+@font-face {
+  font-family: HK Grotesk;
+  src: url("../font/HKGrotesk-Regular.otf");
+}
+@font-face {
+  font-family: HK Grotesk bold;
+  src: url("../font/HKGrotesk-Bold.otf");
+}
+@font-face {
+  font-family: SailecRegular;
+  src: url("../font/Type Dynamic - Sailec Light.otf");
+}
+/*haedaerSection*/
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logoMenuItems {
+  display: flex;
+}
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+.logoMenuItems ul {
+  display: flex;
+  list-style-type: none;
+}
+.logoMenuItems ul li {
+  padding: 10px 17px;
+}
+.logoMenuItems ul li a {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.signUpSection {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.bannerSection {
+  background: url("../img/banner.png");
+  width: 100%;
+  height: 750px;
+}
+.loginBtn button {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: 1px solid #2B83EA;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: transparent;
+  padding: 5px 16px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.signUpBtn button {
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #528FF0;
+  padding: 5px 16px;
+  padding-right: 25px;
+}
+.signUpBtn {
+  position: relative;
+}
+.signUpBtn button::after {
+  content: "";
+  background: url(../img/arrow.png);
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 12px;
+  right: 7px;
+}
+/*banner section*/
+
+.bannerSectionWrapper {
+  display: flex;
+  justify-content: center;
+}
+.bannerDescriptions, .bannerImage {
+  width: 50%;
+}
+.bannerHeading h2 {
+  font-family: HK Grotesk bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+.bannerDescriptions {
+  padding-left: 100px;
+  padding-right: 250px;
+}
+.bannerImage {
+  padding-top: 35px;
+}
+.bannerDescription p {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 120px;
+  padding-top: 35px;
+}
+.bannerSignUp button {
+  background: #2783F3;
+  border-radius: 2px;
+  font-family: HK Grotesk bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+.bannerImage img {
+  width: 390px;
+  height: 450px;
+}
+.bannerHeading h2 {
+  position: relative;
+}
+.bannerHeading h2::after {
+  content: "";
+  height: 4px;
+  width: 24px;
+  display: block;
+  position: absolute;
+  background: #58C19C;
+  left: 0;
+  top: 120px;
+}
+/*product details*/
+
+.productDetails {
+  display: flex;
+}
+.productSlider {
+  width: 50%;
+}
+.productDescription {
+  width: 50%;
+  padding-right: 50px;
+}
+.productName h2 {
+  font-family: HK Grotesk bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  color: #222323;
+}
+.productData p {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F5659;
+}
+.productReviews {
+  display: flex;
+  align-items: center;
+}
+.productReviewNo p {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #202324;
+  padding-left: 20px;
+}
+.productColorName p {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  color: #939C9F;
+  text-transform: uppercase;
+}
+.productColors {
+  display: flex;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+.productColors .color {
+  border: 1px solid #D8E0E2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 12px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-right: 10px;
+  min-width: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  color: #545C5F;
+}
+.quantityHeading h3 {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #939C9F;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.addQuantity .remove {
+  width: 40px;
+  height: 48px;
+  background: #EDF1F2;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.addQuantity .add {
+  width: 40px;
+  height: 48px;
+  background: #EDF1F2;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.addQuantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.buyUseOffer label b, .subscription label b {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202324;
+  padding-top: 20px;
+}
+.buyUseOffer p, .subscription p {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #545C5F;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.buyUseOffer {
+  margin-top: 20px;
+}
+.subscription input, .buyUseOffer input {
+  margin-right: 8px;
+}
+.addCart {
+  background: #00BA74;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 380px;
+  padding: 26px 57px;
+  margin-bottom: 20px;
+}
+.cartDesp {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-left: 15px;
+}
+.condition1 {
+  display: flex;
+  align-items: center;
+}
+.condition1 p {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #34393A;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.condition1 p {
+  padding-left: 10px;
+}
+.deliveryDetails {
+  display: flex;
+  align-items: center;
+}
+.deliveryDetails p {
+  padding-left: 20px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #545C5F;
+}
+[type="radio"]:checked, [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked+label, [type="radio"]:not(:checked)+label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+[type="radio"]:checked+label:before, [type="radio"]:not(:checked)+label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+[type="radio"]:checked+label:after, [type="radio"]:not(:checked)+label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #00BA74;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked)+label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="radio"]:checked+label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.special1, .special2 {
+  position: relative;
+}
+.special1::after {
+  content: "";
+  background: #DE742D;
+  width: 100%;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+.special2::after {
+  content: "";
+  background: #A07EDC;
+  width: 100%;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+.subscription span {
+  color: #00BA74;
+}
+.customSlider {
+  max-width: 500px;
+  padding-left: 50px;
+}
+.productSlider .slick-slide img {
+  display: block;
+  max-width: 100% !important;
+  width: 100%;
+}
+.productSlider .slick-slide {
+  height: auto !important;
+}
+.slider-for .slick-prev {
+  background: url("../img/sidearrow.png");
+  width: 12px;
+  height: 20px;
+  display: block;
+}
+.slider-for .slick-next {
+  background: url("../img/rightarrow.png");
+  width: 12px;
+  height: 20px;
+  display: block;
+}

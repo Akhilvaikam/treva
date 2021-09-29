@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1024px) {
+  .bannerDescriptions {
+    padding-left: 60px;
+    padding-right: 150px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .bannerDescriptions {
+    padding-left: 60px;
+    padding-right: 85px;
+  }
+  .bannerHeading h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .bannerDescription p {
+    padding-right: 74px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .productDetails {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .productSlider {
+    width: 100%;
+  }
+  .productDescription {
+    width: 100%;
+  }
+}
